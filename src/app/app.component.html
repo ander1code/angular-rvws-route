@@ -1,0 +1,32 @@
+<nav class="navbar navbar-inverse" *ngIf="showMenu" >
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand">RouteApp</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a [routerLink]="['/']">Home</a></li>
+                <li><a [routerLink]="['/people']" [queryParams]="{'page':1}">People</a></li>
+                <!-- <li><a [routerLink]="['/person', inputID.value]">Get People By ID</a></li> -->
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a [routerLink]="['/login']">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <!-- <div class="row">
+        <div class="col-md-offset-2 col-md-8 col-md-offset-2">
+            <label for="">Enter a ID:</label>
+            <input type="text" class="form-control" #inputID>
+        </div>
+    </div> -->
+    <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-md-offset-2 col-md-8 col-md-offset-2">
+    <h3>People's Form</h3>
+    <form (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="">ID</label>
+        <input type="text" name="id" id="id" [(ngModel)]="person.id" disabled class="form-control">
+        <label for="">NAME</label>
+        <input type="text" name="name" id="name" [(ngModel)]="person.name" class="form-control" (input)="onInput()">
+        <br>
+        <button type="submit" class="btn btn-success pull-right btn-class">SUBMIT</button>
+      </div>
+    </form>
+  </div>
+</div>

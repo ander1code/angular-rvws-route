@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-md-offset-2 col-md-8 col-md-offset-2">
+        <h3>People's Listing</h3>
+        <div class="list-group">
+            <a *ngFor="let person of people" [routerLink]="['/person', person.id,'details']" class="list-group-item">{{
+                person.name }}</a>
+        </div>
+        <h3 class="page-label">Page: {{ page }}</h3>
+        <div class="row">
+            <a (click)="nextPage()" class="btn btn-info pull-right btn-class">Next</a>
+            <a (click)="previousPage()" class="btn btn-info pull-right btn-class">Previous</a>
+        </div>
+        <div class="row">
+            <br>
+            <a [routerLink]="['/person/new']" class="btn btn-success pull-right btn-class">NEW</a>
+        </div>
+    </div>
+</div>
