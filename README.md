@@ -1,27 +1,12 @@
-# AngularReviewRouting
+# angular-rvws-route
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.2.
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=white) 
+![Frameworks](https://img.shields.io/badge/Angular-darkred?style=flat&logo=angular&logoColor=white)
+![Platform: Web](https://img.shields.io/badge/Platform-Web-blue?logo=google-chrome) 
+![Last Commit](https://img.shields.io/github/last-commit/example/angular-rvws-route?logo=github&color=yellow) ![Project Size](https://img.shields.io/github/repo-size/example/angular-rvws-route?logo=files) ![License](https://img.shields.io/badge/License-MIT-black?logo=open-source-initiative)  
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Objective review of the concepts related to the use of routes in Angular.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+---
